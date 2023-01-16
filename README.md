@@ -102,10 +102,9 @@ Beach in Brazil Jericoacoara ![](https://cdn.southamericabackpacker.com/wp-conte
 
 ```mermaid
 flowchart TD 
-A[Start] --> B{Is it?} 
-B -- Yes --> C[OK] 
-C --> D[Rethink] 
-D --> B 
-B -- No ----> E[End]
-like 1
+    A[Start] --> B{Is it?} 
+    B -- Yes --> C[OK] 
+    C --> D[Rethink] 
+    D --> B 
+    B -- No ----> E[End]
 ```
